@@ -5,5 +5,5 @@ def reverse_each_word (string)
     final << word.reverse
     final << " "
   end
-final.pop
+final.pop!
 end
